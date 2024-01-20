@@ -6,10 +6,25 @@
     color: #ff0000;
 }
 
+.menu-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
 .container {
     display: flex;   
     flex-direction: column;
     height: 100vh;
+    background-image: url('../images/wall.png');
 }
 
 .menu {
@@ -20,6 +35,7 @@
     width: 100%;
     background-color: #000000;
     color: #ffffff;
+    border-bottom: 5px solid #ffd700;
 }
 
 .panel {
@@ -33,9 +49,20 @@
     height: 150px;
     width: 150px;
     border: 1px solid #000000;
-    background-color: #7fffd4;
+    background-color: #0ca874;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+.menu-lives img {
+    width: 60px;
 }
 
 .enemy {
-    background-color: #ff0000;
+    background-image: url(../images/ralph.png);
+    background-size: cover;
 }
